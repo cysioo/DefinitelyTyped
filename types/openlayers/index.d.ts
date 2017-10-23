@@ -12477,7 +12477,7 @@ declare module olx {
          *     source: (ol.source.Vector|undefined)}}
          */
         interface DragAndDropOptions {
-            formatConstructors?: ((n: ol.format.Feature) => any)[];
+            formatConstructors?: ol.format.Feature[];
             projection: ol.ProjectionLike;
             target?: Element;
             source?: ol.source.Vector;
